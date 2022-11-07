@@ -1,3 +1,3 @@
 # About-Me 
 ### Fusion: traineeship
-### Открыть () 
+### [Открыть] (https://perecmc.github.io/Fusion_traineeship_About-Me/) 
