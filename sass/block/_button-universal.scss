@@ -1,0 +1,14 @@
+.button__universal {
+    display: inline-block;
+
+    background-color: #34547A;;
+    color: #FFFFFF;
+
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #56d6e4;;
+        color: #34547A;
+    }
+} 
+

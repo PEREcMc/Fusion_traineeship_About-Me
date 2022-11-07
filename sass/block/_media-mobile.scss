@@ -1,0 +1,160 @@
+@media (max-width: 1279px) {
+    .container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .header {
+        padding: 22px 0px 95px 0px;
+    }
+    .nav-menu {
+        padding-bottom: 67px;
+    }
+    .menu-list {
+        display: none;
+    }
+    .header__wrapper {
+        flex-direction: column;
+    }
+    .header__img {
+        width: 298px;
+        height: 195px;
+        margin-bottom: 51px;
+    }
+    .header__content {
+        align-items: center;
+    }
+    .header__title {
+        font-size: 36px;
+        line-height: 100%;
+        margin-bottom: 44px;
+    }
+    .subtitle__text {    
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+
+        width: 322px;
+    }
+    .header__text {
+        margin-bottom: 44px;
+    }
+
+
+    .about-me {
+        background-color: #FFFFFF;
+        padding: 91px 0px 82px 0px;
+    }
+    .about-me__title {
+        margin-bottom: 42px;
+    }
+    .my-projects {
+        padding: 75px 18px 75px 18px;
+    }
+    .my-projects__wrapper {
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 57px;
+        row-gap: 89px;
+    }
+
+
+    .my-skills {
+        background-color: #FFFFFF;
+        padding: 82px 0px 100px 0px;
+    }
+    .my-skills__wrapper {
+        flex-direction: column-reverse;
+    }
+    .my-skills__portrait {
+        align-self: center;
+
+        max-width: 339px;
+        max-height: 275px;
+
+        margin-bottom: 98px;
+    }
+    .my-skills__content {
+        // align-self: flex-start;
+        width: 339px;
+    }
+    .my-skills__title {
+        text-align: center;
+        margin-bottom: 42px;
+    }
+    .my-skill__desc {
+        &::before {
+            width: 339px;
+        }
+        &::after {
+            width: 266px;
+        }
+    }
+
+
+    .how-do-i-work {
+        padding: 93px 0px 91px 0px;
+        display: flex;
+    }
+    .how-do-i-work__title {
+        margin-bottom: 34px;
+    }
+    .how-do-i-work__video {
+        margin: 0px;
+        width: 339px;
+        height: 185px;
+    
+        &::after {
+            top: 30%;
+            left: 38%;
+            width: 75px;
+            height: 75px;
+            background-size: 75px 75px;
+        }
+    }
+
+
+    .images__wrapper {
+        flex-wrap: wrap;
+    }
+    .images-col__wrapper {
+        flex-direction: row;
+    }
+    .images-col__reverse {
+        flex-direction: row-reverse;
+    }
+
+
+    .want-website {
+        padding: 91px 0px 100px 0px;    
+    }
+    .want-website__title {
+        margin-bottom: 34px;
+    }
+    .want-website__text {
+        margin-bottom: 48px;
+    }
+    .input__wrapper {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+    .want-website__form-name {
+        padding: 17px 0px 18px 20px;
+        width: 342px;
+    }
+    .want-website__form-email {
+        padding: 17px 0px 18px 20px;
+        width: 342px;
+    }
+    .want-website__form-message {
+        width: 342px;
+        margin-bottom: 48px;
+    }
+
+
+    .footer__wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+    }
+}

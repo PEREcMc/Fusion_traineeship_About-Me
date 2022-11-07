@@ -1,0 +1,43 @@
+@media (min-width: 1600px) {
+    .subtitle__text {    
+        font-size: 20px;
+        width: 700px;
+    }
+    .title__section {
+        font-size: 38px;
+    }
+    .project__icon {    
+        width: 70px;
+    }
+    .project__desc {
+        & span {
+            font-size: 20px;
+        }
+    }
+    .project__amount {
+        font-size: 24px;
+    }
+    .my-skill__desc {
+        font-size: 20px;
+    }
+    .want-website__form {
+        input, textarea {
+            font-size: 18px;
+        }
+    }
+    .want-website__form-name {
+        width: 280px;
+    }
+    .want-website__form-email {
+        width: 280px;
+    }
+    .want-website__form-message {
+        width: 590px;
+    }
+    .footer__title {
+        font-size: 23px;    
+    }
+    .footer__subtitle {
+        font-size: 15px;
+    }
+}
